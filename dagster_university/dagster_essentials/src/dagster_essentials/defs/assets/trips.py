@@ -1,11 +1,9 @@
-import requests
-from dagster_essentials.defs.assets import constants
-import dagster as dg
 import duckdb
 import os
 import dagster as dg
 from dagster._utils.backoff import backoff
-
+import requests
+from dagster_essentials.defs.assets import constants
 
 
 # src/dagster_essentials/defs/assets/trips.py
